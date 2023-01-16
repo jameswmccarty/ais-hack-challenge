@@ -7,7 +7,7 @@ let found_vals = []
 let all_vals = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*"
 
 function sleep(ms) {
-      return new Promise(resolve => setTimeout(resolve, ms));
+	return new Promise(resolve => setTimeout(resolve, ms));
 }
 
 for (let i = 0; i < all_vals.length; i++) {
